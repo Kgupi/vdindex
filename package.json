@@ -1,13 +1,21 @@
 {
-  "name": "visiondream-solution",
-  "version": "2.1.1",
+  "name": "vdindex",
+  "version": "2.2.1",
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/visiondream/vdindex.git"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+	"buildWebsiteDev": "webpack --mode development",
+    "startWebsiteDev": "webpack-dev-server --mode development --open",
+	"buildWebsiteProd": "webpack --mode production",
+    "startWebsiteProd": "webpack-prod-server --mode production --open"
   },
   "private": true,
   "dependencies": {
