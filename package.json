@@ -57,7 +57,7 @@
     "karma-jasmine-html-reporter": "^1.4.0",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
-    "ng-packagr": "^5.4.0",
+    "ng-packagr": "^10.1.1",
     "protractor": "~5.4.0",
     "style-loader": "^0.23.1",
     "ts-loader": "^6.2.1",
